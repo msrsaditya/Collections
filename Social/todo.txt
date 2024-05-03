@@ -1,0 +1,1 @@
+Remove all the fake accounts/extra accounts on these platforms. Keep only the main accounts for better visibility.
