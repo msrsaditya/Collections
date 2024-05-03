@@ -1,7 +1,7 @@
-basilisk
-maxthon
-otter
-pulse
-sea monkey
-slimjet
-tempest
+Basilisk
+Maxthon
+Otter
+Pulse
+Sea Monkey
+SlimJet
+Tempest
