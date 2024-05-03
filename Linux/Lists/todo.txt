@@ -1,0 +1,7 @@
+Make a Unified Post Install To-Do Guide Giving Same Instructions, but Different Commands According to the Distro
+
+-- Perform this Action
+
+=> for arch
+=> for ubuntu/mint
+=> for fedora
