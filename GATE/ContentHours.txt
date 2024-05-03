@@ -1,0 +1,25 @@
+1. Maths ---------------------------- 89 hrs
+Mathematical Logic ------------------ 8 hrs
+Set Theory & Algebraic Structures --- 13 hrs
+Graph Theory ------------------------ 13 hrs
+Combinatorics ----------------------- 11 hrs
+Linear Algebra ---------------------- 10 hrs
+Calculus ---------------------------- 10 hrs
+Probability  ------------------------ 11 hrs
+All Interactive Problem
+Solving in EM & DM ------------------ 13 hrs
+
+2. DLD --------------------------------- 32 hrs
+3. CO ---------------------------------- 29 hrs
+4. C Programming ----------------------- 37 hrs
+4. Data Structures & 
+5. Algorithms -------------------------- 100 hrs
+6. TOC & 
+7. CD ---------------------------------- 68 hrs
+8. OS ---------------------------------- 38 hrs
+9. DBMS -------------------------------- 36 hrs
+10. CN --------------------------------- 38 hrs
+11. Aptitude --------------------------- 45 hrs
+12. English ---------------------------- 15 hrs
+
+Total No.Of Hours ---------------------- 527 hrs
