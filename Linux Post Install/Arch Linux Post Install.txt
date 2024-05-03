@@ -1,0 +1,51 @@
+0. Install Latest Version of ArchInstall 
+
+=> sudo pacman -Syu
+=> sudo pacman -Syy archinstall
+
+1. Install Yay AUR Helper:
+
+=> git clone https://aur.archlinux.org/yay.git
+=> cd yay
+=> makepkg -si
+
+2. Remove Chromium Password Prompt on Auto Login:
+
+=> rm ~/.local/share/keyrings/*
+
+3. Improve Performance
+
+(i) Turn Off Mitigations
+
+=> sudo $EDITOR /etc/default/grub
+
+- Add this Flag to the Existing GRUB_CMDLINE_LINUX_DEFAULT
+
+=> GRUB_CMDLINE_LINUX_DEFAULT="mitigations=off"
+
+- Reload GRUB
+
+=> sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+(ii) Decrease Swappiness Value
+
+=> sudo $EDITOR /etc/sysctl.conf
+
+- Add this Line to the End of the File
+
+=> vm.swappiness=25
+
+(iii) Pacman Configuration Edit:
+
+- Add these Flags to pacman.conf
+
+=> Color 
+=> Parallel Downloads
+=> ILoveCandy 
+=> Check Space
+
+- Add these Flags to Makepkg.conf 
+
+=> 4 threads as j4 (No.of Threads for use in compiling)
+
+4. Install Necessary Applications and Uninstall Unnecessary Applications

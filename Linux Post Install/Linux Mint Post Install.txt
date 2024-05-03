@@ -1,0 +1,88 @@
+1. Fix Battery life with Auto CPUFreq (Check the Project Git Repo for More Information)
+
+=> git clone https://github.com/AdnanHodzic/auto-cpufreq.git
+=> cd auto-cpufreq && sudo ./auto-cpufreq-installer
+=> sudo auto-cpufreq --install
+=> sudo auto-cpufreq --live
+=> sudo systemctl enable auto-cpufreq
+=> sudo systemctl start auto-cpufreq
+
+2. Remove Unnecessary Startup Apps from Settings
+
+3. Uninstall All Unnecessary Apps and Replace Apps with Lightweight and Better Alternatives — Create a Bloat Free Barebones System
+
+4. Install Brave Web Browser
+
+=> sudo apt install curl
+=> sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+=> echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+=> sudo apt update
+=> sudo apt install brave-browser
+
+5. Install Nala Frontend for APT
+
+=> sudo apt install nala
+
+6. Enable Auto Updates in Update Manager
+
+7. Remove Repeated Sudo Authentication Prompting in CLI
+
+=> sudo visudo
+
+- Add the Following Line to the Bottom of the File:
+
+=> $USER ALL=(ALL) NOPASSWD: ALL
+ 
+8. Remove Chromium Password Prompt on Auto Login:
+
+=> rm ~/.local/share/keyrings/*
+
+9. Use Official Linux Mint and Ubuntu Mirrors — Only WorldWide
+
+10. Use Zsh Shell with zsh-autocomplete and zsh-syntax-highlighting Plugins
+
+=> chsh -s $(which zsh)
+
+- And then Logout and Login
+- Also Import ZSH Config from Git 
+
+11. Install Necessary Fonts
+
+=> sudo add-apt-repository multiverse
+=> sudo nala update && sudo nala install ttf-mscorefonts-installer
+
+=> wget -q -O - https://gist.githubusercontent.com/Blastoise/72e10b8af5ca359772ee64b6dba33c91/raw/2d7ab3caa27faa61beca9fbf7d3aca6ce9a25916/clearType.sh | zsh
+
+=> wget -q -O - https://gist.githubusercontent.com/Blastoise/b74e06f739610c4a867cf94b27637a56/raw/96926e732a38d3da860624114990121d71c08ea1/tahoma.sh | zsh
+
+=> wget -q -O - https://gist.githubusercontent.com/Blastoise/64ba4acc55047a53b680c1b3072dd985/raw/6bdf69384da4783cc6dafcb51d281cb3ddcb7ca0/segoeUI.sh | zsh
+
+=> wget -q -O - https://gist.githubusercontent.com/Blastoise/d959d3196fb3937b36969013d96740e0/raw/429d8882b7c34e5dbd7b9cbc9d0079de5bd9e3aa/otherFonts.sh | zsh
+
+- Reload Font Cache
+
+=> sudo fc-cache -f -v
+
+11. Improve Performance
+
+(i) Turn Off Mitigations
+
+=> sudo $EDITOR /etc/default/grub
+
+- Add this Flag to the Existing GRUB_CMDLINE_LINUX_DEFAULT
+
+=> GRUB_CMDLINE_LINUX_DEFAULT="mitigations=off"
+
+- Reload GRUB
+
+=> sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+(ii) Decrease Swappiness Value
+
+=> sudo $EDITOR /etc/sysctl.conf
+
+- Add this Line to the End of the File
+
+=> vm.swappiness=25
+
+Reference Helper Guide — Easy Linux Tips Project (https://easylinuxtipsproject.blogspot.com/p/1.html)

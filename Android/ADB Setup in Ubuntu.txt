@@ -1,0 +1,23 @@
+1. Installation:
+
+=> sudo apt install adb android-sdk-platform-tools
+
+- Install ADB ZIP File from Google Developers Platform and Extract it to a Location
+
+=> wget "https://dl.google.com/android/repository/platform-tools-latest-linux.zip"
+
+2. Setup
+
+- Connect Android Phone to the Computer with File Sharing Option Enabled
+- Turn on USB Debugging from Developer Options
+- Cd ADB (Go to ABD Folder Extracted)
+
+=> sudo adb devices (Press Accept in Phone)
+=> adb shell
+
+3. Usage:
+
+=> pm uninstall -k --user 0 <package-name>
+=> pm install-existing <package-name>
+
+- Use Package Name Viewer 2.0 App to View Name of Packages
