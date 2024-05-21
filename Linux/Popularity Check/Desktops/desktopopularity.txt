@@ -1,0 +1,10 @@
+Ranking of Linux Desktops:
+1. kde: 111032
+2. gnome: 88378
+3. xfce: 16233
+4. deepin: 3501
+5. CinnamonDE: 2370
+6. budgie: 1596
+7. CuteFish: 1505
+8. LXQt: 1207
+9. mate: 1055
