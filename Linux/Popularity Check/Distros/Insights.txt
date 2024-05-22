@@ -1,0 +1,7 @@
+=> Roughly 19% of the total no.of Linux distributions, means the top 15 distributions, are used by around 85% of users
+
+=> Arch Linux, Ubuntu, Tails, Fedora, Kali Linux, Linux Mint, Debian, Pop!_OS, Manjaro Linux, Red Hat, openSUSE, Gentoo, NixOS, elementary OS
+
+=> Arch Linux, Debian, Fedora, openSUSE and NixOS are the parent distributions for all these most used distributions with NixOS barely making it in the list
+
+=> There are really only 4 or 5 Linux distributions that most people are using, with top 3 being most popular (Arch Linux, Debian and Fedora)
