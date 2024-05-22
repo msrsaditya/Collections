@@ -1,53 +1,80 @@
 Ranking of Linux Distributions:
-1. ChromeOS: 574563
-2. Arch Linux: 257395
-3. Ubuntu: 227597
-4. Tails: 103558
-5. Fedora: 97561
-6. Kali Linux: 94931
-7. Linux Mint: 91955
-8. Debian: 79747
-9. Manjaro Linux: 69810
-10. Red Hat: 37632
-11. openSUSE: 31655
-12. Gentoo: 25850
-13. NixOS: 24437
-14. elementary OS: 23114
-15. SteamOS: 18691
-16. CentOS: 16573
-17. Qubes OS: 15027
-18. Void Linux: 13422
-19. EndeavourOS: 13030
-20. Kubuntu: 11962
-21. Solus Project: 11233
-22. Whonix: 8829
-23. Asahi Linux: 8778
-24. Rocky Linux: 8220
-25. Zorin OS: 7655
-26. MX Linux: 7539
-27. KDE neon: 6491
-28. Linux from Scratch: 6404
-29. Nobara Project: 5819
-30. Lubuntu: 5562
-31. AlmaLinux: 5393
-32. Garuda Linux: 5276
-33. Slackware: 5133
-34. Parrot OS: 4325
-35. deepin: 3501
-36. Alpine Linux: 3381
-37. Guix: 3316
-38. Bedrock Linux: 1891
-39. HoloISO: 1851
-40. ArcoLinux: 1542
-41. Puppy Linux: 1387
-42. Clear Linux: 1031
-43. VanillaOS: 1026
-44. KISS Linux: 972
-45. Pop!_OS: 713
-46. Peppermint OS: 628
-47. antiX Linux: 562
-48. Feren OS: 521
-49. RedStar OS: 355
-50. Tiny Core Linux: 284
-51. Oracle Linux: 148
-52. KaOS: 23
+1. ChromeOS: 574558
+2. Arch Linux: 257468
+3. Ubuntu: 227640
+4. Tails: 103580
+5. Fedora: 97604
+6. Kali Linux: 94980
+7. Linux Mint: 92018
+8. Debian: 79775
+9. Pop!_OS: 70207
+10. Manjaro Linux: 69815
+11. Red Hat: 37646
+12. openSUSE: 31677
+13. Gentoo: 25855
+14. NixOS: 24463
+15. elementary OS: 23115
+16. SteamOS: 18698
+17. CentOS: 16571
+18. Qubes OS: 15037
+19. Void Linux: 13426
+20. EndeavourOS: 13038
+21. Kubuntu: 11966
+22. Solus Project: 11234
+23. Whonix: 8834
+24. Asahi Linux: 8784
+25. Rocky Linux: 8222
+26. Zorin OS: 7662
+27. MX Linux: 7541
+28. KDE neon: 6489
+29. Linux from Scratch: 6406
+30. Nobara Project: 5830
+31. Lubuntu: 5561
+32. AlmaLinux: 5395
+33. Xubuntu: 5391
+34. Garuda Linux: 5276
+35. Slackware: 5134
+36. Parrot OS: 4328
+37. deepin: 3502
+38. Alpine Linux: 3390
+39. Guix: 3317
+40. CrunchBang: 2046
+41. Bedrock Linux: 1891
+42. HoloISO: 1853
+43. ArcoLinux: 1540
+44. Antergos: 1491
+45. CrunchBangplusplus: 1487
+46. Puppy Linux: 1390
+47. Raspbian: 1215
+48. BlackArch Official: 1092
+49. Clear Linux: 1031
+50. VanillaOS: 1028
+51. KISS Linux: 972
+52. CachyOS: 642
+53. Peppermint OS: 628
+54. Mageia: 612
+55. Parabola: 577
+56. antiX Linux: 563
+57. Bodhi Linux: 543
+58. Feren OS: 521
+59. Linux Lite: 435
+60. Official Arch Labs Linux: 392
+61. RedStar OS: 356
+62. Tiny Core Linux: 285
+63. GeckoLinux: 202
+64. Sabayon: 201
+65. Q4OS: 196
+66. RhinoLinux: 165
+67. BackBox: 160
+68. ArchBang: 156
+69. Oracle Linux: 148
+70. OpenMandriva: 147
+71. Crux Linux: 137
+72. Exherbo: 102
+73. Kinoite: 90
+74. Scientific Linux: 58
+75. Venom Linux: 53
+76. Anarchy Linux: 40
+77. RLXOS Dev: 35
+78. KaOS: 23
+79. Alt Linux: 15
